@@ -3,23 +3,20 @@ requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name =  "py-project-toml"
+name =  "diffrend"
 authors = [
-    {name = "Daniel Ciborowski", email = "dciborow@microsoft.com"},
+    {name = "Shelby Smith", email = "shelby@shelbysm.com"},
 ]
-description = "Sample Python Project for creating a new Python Module"
+description = "Coming soon"
 readme = "README.md"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11"
+    "Programming Language :: Python :: 3.12"
 ]
-requires-python = ">=3.8.1"
+requires-python = ">=3.12.0"
 dynamic = ["version"]
 
 [project.optional-dependencies]
@@ -47,9 +44,9 @@ test = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/microsoft/python-package-template/tree/main#readme"
-Source = "https://github.com/microsoft/python-package-template"
-Tracker = "https://github.com/microsoft/python-package-template/issues"
+Documentation = "https://github.com/shelbylsmith/diffrend/tree/main#readme"
+Source = "https://github.com/shelbylsmith/diffrend"
+Tracker = "https://github.com/shelbylsmith/diffrend"
 
 [tool.flit.module]
 name = "python_package"
