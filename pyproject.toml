@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "diffrend"
-version = "0.1.0"
+version = "0.0.1"
 description = "Coming soon"
 authors = ["Shelby Smith <shelby@shelbysm.com>"]
 license = "MIT"
