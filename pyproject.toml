@@ -7,6 +7,7 @@ license = "MIT"
 readme = "README.md"
 package-mode = true
 repository = "https://github.com/shelbylsmith/diffrend"
+documentation = "https://shelbylsmith.github.io/diffrend/"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
