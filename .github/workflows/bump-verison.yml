@@ -28,7 +28,7 @@ jobs:
           BUMPVERSION_COMMIT: "true"
         with:
           args: ${{ inputs.bump-type }}
-          github-token: ${{ secrets.GH_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check
         if: steps.bump.outputs.bumped == 'true'
