@@ -23,7 +23,7 @@ copyright = "2024, Shelby Smith"
 author = "Shelby Smith"
 
 # The full version, including alpha/beta/rc tags
-release = "0.0.1"
+release = "0.0.2"
 
 
 # -- General configuration ---------------------------------------------------

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "diffrend"
-version = "0.0.1"
+version = "0.0.2"
 description = "Coming soon"
 authors = ["Shelby Smith <shelby@shelbysm.com>"]
 license = "MIT"
@@ -71,7 +71,7 @@ commands = ["pytest {posargs}"]
 select = ["E4", "E7", "E9", "F", "S", "ERA", "B", "C4", "RUF"]
 
 [tool.bumpversion]
-current_version = "0.0.1"
+current_version = "0.0.2"
 parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
 serialize = ["{major}.{minor}.{patch}"]
 search = "{current_version}"
