@@ -21,7 +21,7 @@ python = ">=3.12"
 [tool.poetry.group.dev.dependencies]
 check-manifest = "^0.50"
 pre-commit = "^4.0.1"
-pytest-cov = "^5.0.0"
+pytest-cov = "^6.0.0"
 pytest = "^8.3.3"
 ruff = "^0.7.0"
 pyright = "^1.1.385"
